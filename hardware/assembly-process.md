@@ -1,19 +1,36 @@
 # Assembly Process
 
-## 1. Base structure
-The physical interface uses heavy-duty work gloves selected for durability and secure mounting of electronic components.
+## Step 1 – Materials
+![Figure 14-15](photos/figure-14-15-materials-sensor-fabrication.jpg)
 
-## 2. Custom sensor fabrication
-Each finger sensor is made from a strip of Velostat placed between two parallel conductive copper tape strips. The structure is enclosed inside a laminating sheet for insulation and stability. The proximal end is opened so jumper wires can be soldered to the copper tape.
+Materials: Velostat, copper tape, jumper wires, laminating sheet, insulating layers.
 
-## 3. Circuit integration
-The five sensors are connected to an ESP32 using a voltage divider circuit. Each finger has one fixed resistor and one ADC input channel. One terminal from each sensor is tied to common ground.
+## Step 2 – Completed Flex Sensor
+![Figure 16](photos/figure-16-completed-flex-sensor.jpg)
 
-## 4. Mechanical assembly
-Sensors are mounted on the dorsal side of the glove using adjustable straps, thermoplastic adhesive, and custom 3D-printed guide channels. Fingertip terminal clips stop the sensors from retracting or shifting during use.
+Completed custom-made flex sensor ready for finger mounting.
+Acts as a variable resistor — resistance decreases as finger bends.
 
-## 5. Tracker mounting
-An HTC Vive Tracker 3.0 is installed above the electronics stack on the dorsal side of the glove to provide 6-DoF hand tracking.
+## Step 3 – ESP32 Front View
+![Figure 17](photos/figure-17-esp32-front-view.jpg)
 
-## 6. Final verification
-After mounting and wiring are complete, upload the ESP32 firmware, verify serial data, calibrate in OpenGloves, and validate the virtual hand inside SteamVR.
+ESP32 microcontroller mounted on the breakout board.
+
+## Step 4 – ESP32 Rear View
+![Figure 18](photos/figure-18-esp32-rear-view.jpg)
+
+Mini breadboard with five fixed 10 kΩ resistors forming the voltage divider circuit.
+
+## Step 5 – Glove Assembly Stage
+![Figure 19](photos/figure-19-glove-assembly-stage.jpg)
+
+Sensors secured with straps, thermoplastic adhesive, and 3D-printed guide channels.
+
+## Step 6 – Tracker Mounting
+HTC Vive Tracker 3.0 mounted on the dorsal side for 6-DoF hand pose tracking.
+
+## Step 7 – Final Verification
+1. Upload firmware via Arduino IDE
+2. Verify 5 serial channels at 115200 baud
+3. Calibrate in OpenGloves
+4. Validate virtual hand in SteamVR
