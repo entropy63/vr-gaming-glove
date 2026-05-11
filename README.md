@@ -26,7 +26,7 @@ vr-gaming-glove/
 ├── SETUP.md
 ├── LICENSE
 ├── .gitignore
-├── firmware/                          ← rename from vrgloves-firmware/
+├── vrgloves-firmware/               
 │   ├── AdvancedConfig.h
 │   ├── Encoding.ino
 │   ├── ICommunication.ino
@@ -41,9 +41,9 @@ vr-gaming-glove/
 ├── hardware/
 │   ├── assembly-process.md
 │   ├── BOM.md
-│   └── photos/                        ← upload your 5 photos here
+│   └── photos/
 ├── docs/
-│   └── Chapter 5 Implementation and Testing.docx   ← delete the Draft version
+│   └── Chapter 5 Implementation and Testing.docx
 └── tests/
     └── test-results-summary.md
 ```
