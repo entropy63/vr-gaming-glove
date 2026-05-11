@@ -26,22 +26,26 @@ vr-gaming-glove/
 ├── SETUP.md
 ├── LICENSE
 ├── .gitignore
-├── firmware/
-│   ├── esp32-glove.ino
+├── firmware/                          ← rename from vrgloves-firmware/
+│   ├── AdvancedConfig.h
+│   ├── Encoding.ino
+│   ├── ICommunication.ino
+│   ├── SerialBTCommunication.ino
+│   ├── SerialCommunication.ino
+│   ├── _main.ino
+│   ├── gesture.ino
+│   ├── haptics.ino
+│   ├── input.ino
+│   ├── lucidgloves-firmware.ino
 │   └── README.md
 ├── hardware/
 │   ├── assembly-process.md
 │   ├── BOM.md
-│   ├── circuit-diagrams/
-│   ├── 3d-models/
-│   └── photos/
+│   └── photos/                        ← upload your 5 photos here
 ├── docs/
-│   ├── implementation-and-testing.pdf
-│   ├── opengloves-calibration-screenshot.png
-│   └── steamvr-hand-tracking-screenshot.png
+│   └── Chapter 5 Implementation and Testing.docx   ← delete the Draft version
 └── tests/
-    ├── test-results-summary.md
-    └── latency-and-battery-notes.md
+    └── test-results-summary.md
 ```
 
 ## Hardware implementation
