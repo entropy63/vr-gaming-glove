@@ -61,14 +61,17 @@ The sensors are connected to an ESP32 through a five-channel voltage divider net
 ## Assembly evidence
 The repository should include a full hardware assembly record in `hardware/assembly-process.md` and the corresponding photos in `hardware/photos/`.
 
-Recommended image names:
-- `figure-14-materials-used.jpg`
-- `figure-15-sensor-fabrication-stage.jpg`
-- `figure-16-completed-flex-sensor.jpg`
-- `figure-17-esp32-front-view.jpg`
-- `figure-18-esp32-rear-view.jpg`
-- `figure-19-glove-assembly-stage.jpg`
-- `figure-20-completed-glove-prototype.jpg`
+## Assembly Photos
+| | |
+|---|---|
+| ![Fig14](hardware/photos/figure-14-materials-used.jpg) | ![Fig15](hardware/photos/figure-15-sensor-fabrication-stage.jpg) |
+| Materials used | Sensor fabrication stage |
+| ![Fig16](hardware/photos/figure-16-completed-flex-sensor.jpg) | ![Fig17](hardware/photos/figure-17-esp32-front-view.jpg) |
+| Completed flex sensor | ESP32 front view |
+| ![Fig18](hardware/photos/figure-18-esp32-rear-view.jpg) | ![Fig19](hardware/photos/figure-19-glove-assembly-stage.jpg) |
+| ESP32 rear – voltage divider | Glove assembly stage |
+| ![Fig20](hardware/photos/figure-20-completed-glove-prototype.jpg) | |
+| Completed glove prototype | |
 
 ## Key benchmark results
 - Active finger channels: **5 / 5**
